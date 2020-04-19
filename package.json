@@ -1,5 +1,5 @@
 {
-  "name": "nuka-carousel",
+  "name": "nuka-carousel-apo",
   "version": "4.6.6",
   "description": "Pure React Carousel",
   "main": "index.js",
@@ -84,7 +84,7 @@
     "lint-js": "eslint .",
     "prettier": "prettier \"**/*.{js,json,ts,css,md}\"",
     "preversion": "npm run check",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --host 0.0.0.0",
     "test": "jest test --config jest.unit.config.js",
     "test-e2e": "jest test --config jest.e2e.config.js",
     "version": "npm run build"
